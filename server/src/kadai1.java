@@ -65,8 +65,8 @@ public class kadai1 {
         // 5. **戻り値のない関数を作りましょう**
         //     - 引数に年齢（`int`型）を受け取り、「未成年」または「成人」と出力する関数を作成してください。
         System.out.println("■11");
-        java.util.function.Consumer<Integer> noreturn = age_ -> {
-            if (age_ < 20) {
+        java.util.function.Consumer<Integer> noreturn = age -> {
+            if (age < 20) {
                 System.out.println("未成年");
             } else {
                 System.out.println("成人");
